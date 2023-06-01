@@ -1,6 +1,10 @@
 # LuaGraphDisplayer
 Lua script that displays graphs.
 
+**__DISCLAIMER__**
+
+**__This library does NOT protect from attacks based on executing Lua code through `load()` function, used for calculating points. You have to validate equasions by yourself, or modify `load()` behaviour to ensure they are safe.__**
+
 **How does it work?**
 
 You will be asked for input: the equasion (e.g. `y = x`) that is following Lua syntax (e.g. `y = math.abs(x)`) and X/Y print limits.
